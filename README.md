@@ -1,5 +1,7 @@
 # Foyer des Jeunes Travailleurs Colombier Website
 
+![](https://github.com/Heldeenn/orleans-php-2003-project-fjt/blob/dev/FJT.gif)
+
 ## Steps
 **You will need [Composer](https://getcomposer.org/) to run this repository.**
 
