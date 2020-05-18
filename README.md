@@ -1,5 +1,7 @@
 # Foyer des Jeunes Travailleurs Colombier Website
 
+![](https://github.com/Heldeenn/orleans-php-2003-project-fjt/blob/dev/FJT.gif)
+
 ## Steps
 **You will need [Composer](https://getcomposer.org/) to run this repository.**
 
@@ -33,9 +35,9 @@ If you develop on Windows, you should edit you git configuration to change your 
 * Admin index [localhost:8000/admin/index](localhost:8000/admin/index)
 
 Mailbox
-* Mailbox from contact [localhost:8000/adminContact/index](localhost:8000/adminContact/index)
+* Index [localhost:8000/adminContact/index](localhost:8000/adminContact/index)
 * Mail details [localhost:8000/adminContact/show/:id](localhost:8000/adminContact/show/2)
-* Mail deletion [localhost:8000/adminContact/delete/:id](localhost:8000/adminContact/delete/2)
+* Deletion [localhost:8000/adminContact/delete/:id](localhost:8000/adminContact/delete/2)
 
 Room
 * Index [localhost:8000/adminRoom/index](localhost:8000/adminRoom/index)
@@ -49,10 +51,10 @@ Address
 * Deletion [localhost:8000/adminRoom/deleteAddress/:id](localhost:8000/adminRoom/deleteAddress/2)
 
 Animation
-* Animation index [localhost:8000/adminAnimation/index](localhost:8000/adminAnimation/index)
-* Animation add [localhost:8000/adminAnimation/add](localhost:8000/adminAnimation/add)
-* Animation edit [localhost:8000/adminAnimation/edit/:id](localhost:8000/adminAnimation/edit/2)
-* Animation deletion [localhost:8000/adminAnimation/delete/:id](localhost:8000/adminRoom/delete/2)
+* Index [localhost:8000/adminAnimation/index](localhost:8000/adminAnimation/index)
+* Add [localhost:8000/adminAnimation/add](localhost:8000/adminAnimation/add)
+* Edit [localhost:8000/adminAnimation/edit/:id](localhost:8000/adminAnimation/edit/2)
+* Deletion [localhost:8000/adminAnimation/delete/:id](localhost:8000/adminRoom/delete/2)
 * Animation highlight [localhost:8000/adminAnimation/highlightAnimation/:id](localhost:8000/adminAnimation/highlightAnimation/2)
 
 Pre-admission
@@ -62,9 +64,8 @@ Pre-admission
 * File details [localhost:8000/adminAdmission/show/:id](localhost:8000/adminAdmission/show/2)
 * Request deletion [localhost:8000/adminAdmission/delete/:id](localhost:8000/adminAdmission/delete/2)
 
-
-## What I did on this project
-For the design I worked on the cards using bootstrap for services, animations, rooms and their modal.
-I've entirely created the "prestations" page. I've created 2 tables with mySQL, one for services and one for animations.
-Services can not be administrated unlike animations. But it's all dynamic in case of the client would want to change his services, it's easier to edit a table than a static page.
-So I was also in charge of the administration for animations. You can create, edit, delete and highlight any animation.
+## Contributors
+* [Anthony Berduck](https://github.com/AnthonyBerduck)
+* [Julien Gault](https://github.com/JuGault)
+* [Yannice Maladin](https://github.com/malyadev)
+* [Amandine Helene](https://github.com/Heldeenn)
