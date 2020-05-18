@@ -35,9 +35,9 @@ If you develop on Windows, you should edit you git configuration to change your 
 * Admin index [localhost:8000/admin/index](localhost:8000/admin/index)
 
 Mailbox
-* Mailbox from contact [localhost:8000/adminContact/index](localhost:8000/adminContact/index)
+* Index [localhost:8000/adminContact/index](localhost:8000/adminContact/index)
 * Mail details [localhost:8000/adminContact/show/:id](localhost:8000/adminContact/show/2)
-* Mail deletion [localhost:8000/adminContact/delete/:id](localhost:8000/adminContact/delete/2)
+* Deletion [localhost:8000/adminContact/delete/:id](localhost:8000/adminContact/delete/2)
 
 Room
 * Index [localhost:8000/adminRoom/index](localhost:8000/adminRoom/index)
@@ -51,10 +51,10 @@ Address
 * Deletion [localhost:8000/adminRoom/deleteAddress/:id](localhost:8000/adminRoom/deleteAddress/2)
 
 Animation
-* Animation index [localhost:8000/adminAnimation/index](localhost:8000/adminAnimation/index)
-* Animation add [localhost:8000/adminAnimation/add](localhost:8000/adminAnimation/add)
-* Animation edit [localhost:8000/adminAnimation/edit/:id](localhost:8000/adminAnimation/edit/2)
-* Animation deletion [localhost:8000/adminAnimation/delete/:id](localhost:8000/adminRoom/delete/2)
+* Index [localhost:8000/adminAnimation/index](localhost:8000/adminAnimation/index)
+* Add [localhost:8000/adminAnimation/add](localhost:8000/adminAnimation/add)
+* Edit [localhost:8000/adminAnimation/edit/:id](localhost:8000/adminAnimation/edit/2)
+* Deletion [localhost:8000/adminAnimation/delete/:id](localhost:8000/adminRoom/delete/2)
 * Animation highlight [localhost:8000/adminAnimation/highlightAnimation/:id](localhost:8000/adminAnimation/highlightAnimation/2)
 
 Pre-admission
