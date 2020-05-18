@@ -64,9 +64,8 @@ Pre-admission
 * File details [localhost:8000/adminAdmission/show/:id](localhost:8000/adminAdmission/show/2)
 * Request deletion [localhost:8000/adminAdmission/delete/:id](localhost:8000/adminAdmission/delete/2)
 
-
-## What I did on this project
-For the design I worked on the cards using bootstrap for services, animations, rooms and their modal.
-I've entirely created the "prestations" page. I've created 2 tables with mySQL, one for services and one for animations.
-Services can not be administrated unlike animations. But it's all dynamic in case of the client would want to change his services, it's easier to edit a table than a static page.
-So I was also in charge of the administration for animations. You can create, edit, delete and highlight any animation.
+## Contributors
+* [Anthony Berduck](https://github.com/AnthonyBerduck)
+* [Julien Gault](https://github.com/JuGault)
+* [Yannice Maladin](https://github.com/malyadev)
+* [Amandine Helene](https://github.com/Heldeenn)
